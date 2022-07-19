@@ -1,0 +1,54 @@
+.banner {
+  position: relative;
+  background-size: 6000px;
+  background-position: center center;
+}
+
+.banner .banner-img img {
+  width: 730px;
+  cursor: pointer;
+}
+
+.banner .wrap {
+  width: 982px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.banner .banner-img {
+  width: 730px;
+  position: relative;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.banner .wrap .banner-img .dots {
+  position: absolute;
+  bottom: 5px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.banner .wrap .banner-img .dots .pg {
+  display: inline-block;
+  width: 5px;
+  height: 5px;
+  background-color: #fff;
+  border-radius: 50%;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.banner .wrap .banner-img .dots .pg.active {
+  background-color: red;
+}
+
+.banner > .wrap .download {
+  position: absolute;
+  top: 0;
+  z-index: 20;
+  right: -1px;
+  width: 254px;
+  height: 284px;
+  background: url('../../assets/images/download.png');
+}
