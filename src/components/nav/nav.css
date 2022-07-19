@@ -1,0 +1,43 @@
+.subnav {
+  height: 34px;
+  background-color: #C20C0C;
+}
+
+.subnav .wrap {
+  width: 1100px;
+  height: 34px;
+  margin: 0 auto
+}
+
+.subnav .wrap .nav {
+  height: 34px;
+  margin: 0 auto;
+  padding-left: 180px;
+}
+
+.subnav .wrap .nav ul {
+  padding-left: 180px;
+}
+
+.subnav .wrap .nav li {
+  float: left;
+}
+
+.subnav .wrap .nav li a {
+  height: 34px;
+  text-align: center;
+  font-size: 12px;
+}
+
+.subnav .wrap .nav li a.active em  {
+  background: #9B0909;
+}
+
+.subnav .wrap .nav li a em {
+  height: 20px;
+  padding: 2px 13px;
+  margin: 7px 17px 0;
+  border-radius: 20px;
+  line-height: 30px;
+  color: #fff;
+}
