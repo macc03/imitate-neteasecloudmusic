@@ -1,9 +1,71 @@
 .home .main {
-
+  box-sizing: border-box;
   width: 980px;
   padding: 20px 20px 40px;
   margin: 0 auto;
+  background-color: #fff;
 }
+
 .home .main .mn-1 {
   width: 730px;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+}
+
+.home .main .mn-1 .rm-list {
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 46px;
+}
+
+.home .main .mn-1 .rm-list .rm-cover {
+  position: relative;
+  width: 140px;
+  height: 140px;
+}
+.home .main .mn-1 .rm-list .rm-cover .tip {
+  font-size: 14px;
+  color: #000
+}
+.home .main .mn-1 .rm-list .rm-cover .tip:hover {
+  text-decoration: underline;
+}
+.home .main .mn-1 .rm-list .rm-cover .bottom {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 27px;
+  display: flex;
+  background: url('../../assets/images/coverall.png');
+  background-position: 0 -537px;
+  color: #ccc;
+  font-size: 12px;
+}
+
+.home .main .mn-1 .rm-list .rm-cover .bottom .icon-headset, .home .main .mn-1 .rm-list .rm-cover .bottom .icon-play {
+  background: url('../../assets/images/iconall.png') no-repeat;
+}
+.home .main .mn-1 .rm-list .rm-cover .bottom .num {
+  margin: 5px 0 0 0;
+}
+.home .main .mn-1 .rm-list .rm-cover .bottom .icon-headset {
+  width: 14px;
+  height: 11px;
+  background-position: 0 -24px;
+  margin: 9px 5px 9px 10px;
+}
+
+.home .main .mn-1 .rm-list .rm-cover .bottom .icon-play {
+  position: absolute;
+  right: 10px;
+  top: 5px;
+  width: 16px;
+  height: 17px;
+  background-position: 0 0;
+}
+.home .main .mn-1 .rm-list .rm-cover .bottom .icon-play:hover {
+  background-position: 0 -60px;
 }

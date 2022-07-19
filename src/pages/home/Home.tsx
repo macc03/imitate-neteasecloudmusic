@@ -25,6 +25,24 @@ const Home = () => {
               <a href="#">电子</a>
             </div>
           </MTitle>
+          <div className="rm-list">
+            {
+              ['', '', '', '', '', '', '', ''].map(() => <div className="rm-list-item">
+                <div className="rm-cover">
+                  <img src='http://p2.music.126.net/xAlvsSAln2k2b7cmIqGvRQ==/109951165225268862.jpg?param=140y140' />
+                  <div className="bottom">
+                    <span className='icon-headset'></span>
+                    <span className='num'>14664万</span>
+                    <a title='播放' className='icon-play' href="#"></a>
+                  </div>
+                  <a className='tip' href="#">[民谣盛宴] 100首必
+听欧美民谣
+</a>
+                </div>
+              </div>)
+            }
+
+          </div>
         </div>
         <div className="mn-2">
 
