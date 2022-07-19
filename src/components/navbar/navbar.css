@@ -1,0 +1,120 @@
+.nav-bar {
+  background-color: #242424;
+}
+
+.nav-bar header {
+  width: 1100px;
+  height: 69px;
+  margin: 0 auto;
+}
+
+.nav-bar header .logo {
+  float: left;
+  width: 176px;
+  height: 69px;
+  line-height: 69px;
+  background: url('../../assets/images/topbar.png') no-repeat;
+  background-position: 0 0;
+  cursor: pointer;
+}
+
+.nav-bar header ul li {
+  float: left;
+  height: 69px;
+  list-style: none;
+  display: inline-block;
+  line-height: 69px;
+  color: #fff;
+}
+
+.nav-bar header ul li span {
+  float: left;
+  font-size: 14px;
+}
+
+.nav-bar header ul li.lst {
+  position: relative;
+}
+
+.nav-bar header ul li .hot {
+  display: block;
+  position: absolute;
+  top: 21px;
+  left: 100px;
+  width: 28px;
+  height: 19px;
+  background: url(../../assets/images/topbar.png) no-repeat;
+  background-position: -190px 0
+}
+
+.nav-bar header ul li span a {
+  display: inline-block;
+  color: #ccc;
+  text-decoration: none;
+  padding: 0 19px;
+  line-height: 69px;
+}
+
+.nav-bar header ul li:hover {
+  background-color: #000;
+}
+
+.nav-bar header .creator {
+  float: right;
+  width: 90px;
+  height: 32px;
+  margin: 19px 0 0 12px;
+  box-sizing: border-box;
+  padding-left: 16px;
+  border: 1px solid #4F4F4F;
+  background-position: 0 -140px;
+  line-height: 33px;
+  color: #ccc;
+  border-radius: 20px;
+  font-size: 12px;
+}
+
+.nav-bar header .creator:hover {
+  border: 1px solid #fff;
+  color: #fff
+}
+
+.nav-bar header .login {
+  float: right;
+  display: block;
+  width: 28px;
+  margin: 5px 0 20px 10px;
+  padding: 0 22px 0 0;
+  color: #787878;
+  font-size: 12px;
+  line-height: 60px;
+}
+
+.nav-bar header .login:hover {
+  text-decoration: underline;
+}
+
+.nav-bar header .search {
+  width: 158px;
+  height: 32px;
+  background-color: #fff;
+  border-radius: 32px;
+  margin-top: 19px;
+  float: right;
+}
+
+.nav-bar header .search .search-bg {
+  background: url(../../assets/images/topbar.png) no-repeat;
+  background-position: 0 -99px;
+  ;
+}
+
+.nav-bar header .search input {
+  width: 80%;
+  border: none;
+  background-color: #fff;
+  line-height: 16px;
+  outline: none;
+  font-size: 12px;
+  margin: 9px 0 0 27px;
+}
