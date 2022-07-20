@@ -6,7 +6,7 @@ const Navbar = () => {
       <header>
         <h1 className="logo"></h1>
         <ul>
-          <li><span><a href="#">发现音乐</a></span></li>
+          <li><span><a className='active' href="#">发现音乐</a></span></li>
           <li><span><a href="#">我的音乐</a></span></li>
           <li><span><a href="#">关注</a></span></li>
           <li><span><a href="#">商城</a></span></li>

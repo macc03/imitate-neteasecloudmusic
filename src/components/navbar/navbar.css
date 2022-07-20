@@ -23,7 +23,6 @@
   height: 69px;
   list-style: none;
   line-height: 69px;
-  color: #fff;
 }
 
 .nav-bar header ul li span {
@@ -54,7 +53,8 @@
   line-height: 69px;
 }
 
-.nav-bar header ul li:hover {
+.nav-bar header ul li a:hover, .nav-bar header ul li a.active {
+  color: #fff;
   background-color: #000;
 }
 
