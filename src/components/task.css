@@ -1,0 +1,17 @@
+.list-item {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+
+.list-item>span {
+  color: #fff;
+  font-size: 1.3rem;
+}
+
+.list-item .task-main {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  padding: 15px 12px;
+}

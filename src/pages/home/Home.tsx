@@ -42,7 +42,7 @@ const Home = () => {
               </div>)
             }
           </div>
-          {/* <MTitle title='新碟上架' /> */}
+          <MTitle title='新碟上架' />
         </div>
         <div className="mn-2">
           <div className="user-profile">
