@@ -3,6 +3,7 @@ import Navbar from "../../components/navbar/Navbar"
 import Nav from "../../components/nav/Nav"
 import Banner from "../../components/banner/Banner"
 import MTitle from "../../components/m-title/MTitle"
+import ScrollBanner from '../../components/scroll-banner/ScrollBanner'
 
 const Home = () => {
   return (
@@ -43,6 +44,7 @@ const Home = () => {
             }
           </div>
           <MTitle title='新碟上架' />
+          <ScrollBanner />
         </div>
         <div className="mn-2">
           <div className="user-profile">
