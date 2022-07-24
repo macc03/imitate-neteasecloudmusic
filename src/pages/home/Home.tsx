@@ -4,6 +4,7 @@ import Nav from "../../components/nav/Nav"
 import Banner from "../../components/banner/Banner"
 import MTitle from "../../components/m-title/MTitle"
 import ScrollBanner from '../../components/scroll-banner/ScrollBanner'
+import BList from '../../components/b-list/BList'
 
 const Home = () => {
   return (
@@ -45,6 +46,14 @@ const Home = () => {
           </div>
           <MTitle title='新碟上架' />
           <ScrollBanner />
+          <MTitle title='榜单' style={{
+            'marginTop': '20px'
+          }} />
+          <div className="blist">
+            <BList title='飙升榜' coverUrl='	https://p3.music.126.net/pcYHpMkdC69VVvWiynNklA==/109951166952713766.jpg?param=100y100' />
+            <BList title='新歌榜' coverUrl='	https://p3.music.126.net/pcYHpMkdC69VVvWiynNklA==/109951166952713766.jpg?param=100y100' />
+            <BList title='原创榜' coverUrl='	https://p3.music.126.net/pcYHpMkdC69VVvWiynNklA==/109951166952713766.jpg?param=100y100' />
+          </div>
         </div>
         <div className="mn-2">
           <div className="user-profile">

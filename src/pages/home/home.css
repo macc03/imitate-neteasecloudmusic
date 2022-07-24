@@ -97,6 +97,17 @@
   background-position: 0 -60px;
 }
 
+.home .main .mn-1 .blist {
+  display: flex;
+  gap: 1px;
+  width: 100%;
+  height: 472px;
+  margin-top: 20px;
+  border: 1px solid #ccc;
+  background: url('https://s2.music.126.net/style/web2/img/index/index_bill.png?7a34426ea63a46d268c2dd54c1fcbf5c');
+  background-size: 100% 100%;
+}
+
 .home .main .mn-2 {
   box-sizing: border-box;
   width: 240px;
@@ -142,9 +153,11 @@
   width: 100%;
   display: flex;
 }
+
 .home .main .mn-2 .singer ul li a .info:hover {
   background: #f4f4f4;
 }
+
 .home .main .mn-2 .singer ul li a .info {
   display: inline-block;
   width: 100%;
@@ -164,6 +177,7 @@
   color: #666;
   margin-bottom: 4px;
 }
+
 .home .main .mn-2 .singer .singer-apply-btn {
   display: block;
   margin: auto;
@@ -174,6 +188,7 @@
   font-size: 12px;
   cursor: pointer;
 }
+
 .home .main .mn-2 .singer .singer-apply-btn:hover {
   background-color: #fff;
 }

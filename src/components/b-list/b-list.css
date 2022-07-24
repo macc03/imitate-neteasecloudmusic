@@ -1,0 +1,60 @@
+.b-list {
+  flex: 1;
+  padding: 20px 20px 0 20px;
+  display: flex;
+  flex-direction: column;
+}
+.b-list .top {
+  display: flex;
+}
+.b-list .top .r-pd {
+  margin: 6px 10px
+}
+.b-list .top  img {
+  width: 79px;
+  height: 79px;
+}
+.b-list .top h3 {
+  margin-bottom: 15px;
+}
+.b-list .top a.icon {
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  margin-right: 10px;
+  background: url('../../assets/images/index.png') no-repeat;
+  cursor: pointer;
+}
+.b-list .top a.icon-play {
+  background-position: -267px -205px;
+}
+.b-list .top a.icon-add {
+  background-position: -300px -205px
+}
+.b-list .bottom {
+  margin: 22px 0;
+}
+.b-list .bottom ul li .no {
+  display: inline-block;
+  text-align: center;
+  width: 35px;
+  height: 32px;
+  font-size: 16px;
+}
+.b-list .bottom ul li .no-top {
+  color: #c10d0c;
+}
+.b-list .bottom ul li a {
+  color: #000
+}
+.b-list .bottom ul li a:hover, .b-list .bottom .more:hover {
+  text-decoration: underline;
+}
+.b-list .bottom ul li {
+  height: 32px;
+  line-height: 32px;
+  color: #000
+}
+.b-list .bottom .more {
+  float: right;
+}
