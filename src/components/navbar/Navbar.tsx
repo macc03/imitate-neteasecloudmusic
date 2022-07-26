@@ -1,6 +1,18 @@
+import { useState } from 'react'
+import LoginDialog from '../login-dialog/LoginDIalog'
 import './navbar.css'
 
 const Navbar = () => {
+  const [status, setStatus] = useState<boolean>(false)
+
+  const openLoginDialog = () => {
+    setStatus(true)
+  }
+
+  const closeLoginDialog = () => {
+    setStatus(false)
+  }
+
   return (
     <div className="nav-bar">
       <header>
@@ -16,15 +28,19 @@ const Navbar = () => {
             <sup className='hot'></sup>
           </li>
         </ul>
-        <a href='#' className='login'>登录</a>
+        <a href='javascript:void(0)' onClick={openLoginDialog} className='login'>登录</a>
         <a href='#' className='creator'>创作者中心</a>
         <div className="search">
           <span className="search-bg">
             <input type="text" placeholder='音乐/视频/电台/用户' />
           </span>
         </div>
-
       </header>
+      {
+        status
+          ? <LoginDialog state={status} closeLoginDialog={closeLoginDialog} />
+          : null
+      }
     </div>
   )
 }

@@ -1,11 +1,17 @@
+import { useState } from 'react'
 import './login-dialog.css'
 
-const LoginDialog = () => {
+interface LoginDialogProps {
+  state: boolean,
+  closeLoginDialog: () => void,
+}
+
+const LoginDialog = ({ state, closeLoginDialog }: LoginDialogProps) => {
   return (
     <div className="login-dialog">
       <div className="header">
         登录
-        <i className='icon-close'></i>
+        <i onClick={closeLoginDialog} className='icon-close'></i>
       </div>
       <div className="code-login">
         <img src={require('../../assets/images/phone.png')} width='125' height='220' alt="" />

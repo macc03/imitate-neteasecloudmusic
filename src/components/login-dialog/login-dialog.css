@@ -27,6 +27,7 @@
   height: 10px;
   background: url('../../assets/images/close.png');
   background-position: 0 -95px;
+  cursor: pointer;
 }
 .login-dialog > .code-login {
   display: flex;
