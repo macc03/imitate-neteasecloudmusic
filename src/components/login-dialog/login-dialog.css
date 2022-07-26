@@ -1,0 +1,56 @@
+.login-dialog {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 595px;
+  height: 366px;
+  z-index: 9999;
+  background-color: #fff;
+}
+.login-dialog > .header {
+  position: relative;
+  height: 38px;
+  line-height: 38px;
+  box-sizing: border-box;
+  padding: 0 45px 0px 18px;
+  background-color: #2d2d2d;
+  font-size: 14px;
+  color: #fff
+}
+.login-dialog > .header .icon-close {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  display: block;
+  width: 10px;
+  height: 10px;
+  background: url('../../assets/images/close.png');
+  background-position: 0 -95px;
+}
+.login-dialog > .code-login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 55px;
+  height: 269px;
+}
+.login-dialog > .code-login .s-login {
+  display: block;
+  font-size: 18px;
+  text-align: center;
+  margin: 10px 0;
+}
+.login-dialog > .code-login  p {
+  margin-top: 15px;
+}
+.login-dialog input[type="button"] {
+  display: block;
+  margin: auto;
+  border: 1px solid #979797;
+  border-radius: 15px;
+  padding: 5px;
+  background-color: #fff;
+  font-size: 12px;
+  cursor: pointer;
+}
